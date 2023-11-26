@@ -31,7 +31,7 @@ const Hero = () => {
           </p>
           <Button label="Show now" iconUrl={arrowRight} />
 
-          <div className="flex justify-start items-start flex-wrap w-fullmt-20 gap-16">
+          <div className="flex justify-start items-start flex-wrap w-full mt-20 gap-16">
             {statistics.map((stat, index) => (
               <div key={index}>
                 <p className="text-4xl font-palanquin font-bold">
