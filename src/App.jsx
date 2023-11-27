@@ -12,7 +12,7 @@ import Nav from "./Components/Nav";
 import "./index.css";
 const App = () => {
   return (
-    <main>
+    <main className="overflow-hidden max-w-[100vw]">
       <Nav />
       <section className="xl:padding-l wide:paddng-b sm:padding-b">
         <Hero />
