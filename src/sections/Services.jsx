@@ -3,7 +3,8 @@ import ServiceCard from "../Components/ServiceCard";
 const Services = () => {
   return (
     <>
-      <h2 className="text-4xl font-palanquin font-bold mb-10">
+      <h2 className="text-4xl font-palanquin font-bold mb-10 dark:text-white
+      ">
         <span className="text-coral-red">Our </span> Services
       </h2>
       <section className="max-container flex justify-center flex-wrap gap-9">

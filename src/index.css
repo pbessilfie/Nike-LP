@@ -19,10 +19,10 @@
   }
 
   .input {
-    @apply sm:flex-1 max-sm:w-full text-base leading-normal text-slate-gray pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-slate-gray max-sm:rounded-full;
+    @apply sm:flex-1 max-sm:w-full text-base leading-normal text-slate-gray pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-slate-gray max-sm:rounded-full bg-transparent;
   }
   .nav-res {
-    @apply max-lg:flex-col max-lg:bg-coral-red max-lg:rounded-md max-lg:absolute max-lg:top-1 max-lg:-right-[45%] max-lg:w-[400px] max-lg:p-10 max-lg:h-[600px] transition-all max-lg:hidden;
+    @apply max-lg:flex-col max-lg:bg-coral-red max-lg:rounded-md max-lg:absolute max-lg:top-1 max-lg:-right-[205%] max-lg:w-[40vw] max-lg:p-10 max-lg:h-[100vh] transition-all max-sm:hidden;
   }
 }
 

@@ -2,7 +2,7 @@ import { arrowRight } from "../assets/icons";
 import { offer } from "../assets/images";
 import Button from "../Components/button";
 
-const SpecialOffer = () => {
+const SpecialOffer = ({ darkMode }) => {
   return (
     <section className="flex justify-wrap items-center max-xl:flex-col-reverse gap-10 max-container">
       <div className=" flex-1">
@@ -14,7 +14,7 @@ const SpecialOffer = () => {
         />
       </div>
       <div className="flex flex-1 flex-col">
-        <h2 className="font-palanquin text-4xl capitalize font-bold lg:max-w-lg">
+        <h2 className="font-palanquin text-4xl capitalize font-bold lg:max-w-lg dark:text-white">
           <span className="text-coral-red">Special </span>
           Offer
         </h2>
@@ -34,7 +34,7 @@ const SpecialOffer = () => {
             label="Learn more"
             backgroundColor="bg-white"
             borderColor="border-slate-gray"
-            textColor="text-slate-gray"
+            textColor={!darkMode && "text-white"}
           />
         </div>
       </div>

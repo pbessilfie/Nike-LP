@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  darkMode: 'class',
   theme: {
     fontSize: {
       xs: ["12px", "16px"],
@@ -13,6 +14,7 @@ export default {
       "4xl": ["48px", "58px"],
       "8xl": ["96px", "106px"],
     },
+    
     extend: {
       fontFamily: {
         palanquin: ["Palanquin", "sans-serif"],
