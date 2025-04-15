@@ -8,7 +8,7 @@ import {
   SpecialOffer,
   CustomerReviews,
   Subscribe,
-} from "./Sections/index";
+} from "./Sections/index.js";
 import Nav from "./Components/Nav";
 import "./index.css";
 const App = () => {
