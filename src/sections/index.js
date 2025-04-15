@@ -7,7 +7,7 @@ import CustomerReviews from "./CustomerReview";
 import Services from "./Services";
 import Footer from "./Footer";
 
-export default {
+export {
   Hero,
   PopularProducts,
   Subscribe,
